@@ -1,0 +1,27 @@
+#mystory {
+  background-color:#f0f5f9;
+}
+
+#projects {
+  background-color:#c9d6df;
+}
+
+#contact {
+  background-color:#f0f5f9;
+  min-height: calc(100vh - 86px);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  padding:4em;
+}
+
+.paragraph {
+  text-align:center;
+  padding:4em;
+}
+

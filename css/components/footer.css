@@ -1,0 +1,23 @@
+.footer {
+  -webkit-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  display: flex;
+  background-color: #52616b;
+  min-height:76px;
+  justify-content: space-around;
+}
+
+.social-links {
+  align-self: center;
+}
+
+.social-links i {
+  padding:0 1.5em 0 1.5em;
+  color: #F0F5F9;
+  font-size: 1.9em;
+}
+
+.social-links i:hover {
+  color:#C9D6DF;
+}

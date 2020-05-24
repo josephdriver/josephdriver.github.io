@@ -1,0 +1,16 @@
+nav {
+  min-height: 76px;
+  -webkit-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
