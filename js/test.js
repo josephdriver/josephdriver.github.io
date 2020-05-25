@@ -1,17 +1,16 @@
 let intViewportHeight = window.innerHeight;
 console.log(intViewportHeight);
 window.onscroll = function() {myFunction()};
-const customnav = document.querySelector(".customnav")
+const navbar = document.querySelector("#navbar");
+const mystorylink = document.querySelector("#mystorylink");
+const mystorydiv = document.querySelector("#mystory");
 
-function myFunction() {
-  if (document.body.scrollTop > intViewportHeight - 10) {
-    customnav.style.display = "flex";
-    customnav.classList.add("solidbackground");
-    customnav.classList.remove("opacitybackground");
-  } else if (document.body.scrollTop < intViewportHeight) {
-    customnav.style.display = "none";
-    customnav.classList.add("opacitybackground");
-    customnav.classList.remove("solidbackground")
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > intViewportHeight - 10 ) {
+    navbar.style.top = "0";
+  } else {
+    navbar.style.top = "-100px";
   }
 }

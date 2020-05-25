@@ -1,57 +1,25 @@
-.customnav {
-  padding: 0 2em 0 2em;
-  position: fixed;
-  display:none;
-  top: -76px;
-  align-items: center;
-  min-height: 76px;
-  min-width: 100%;
-  top: 0;
-}
-
-.solidbackground {
-  background-color: rgba(255,255,255,.9);
-}
-
-.opacitybackground {
-  background-color: rgba(255,255,255,0);
-}
-
-.title {
-  color: black;
-}
-
-.links {
-  padding: 0 2em 0 2em;
-  opacity: 1;
-}
-.links a {
-  color:#222831;
-  text-decoration: none;
-}
-
-.links a:hover{
-  color: #00adb5;
-}
-
-.title a:hover {
-  color:#00adb5;
-}
-
-.title a {
-  color:#222831;
-  text-decoration: none;
-}
-
-.active {
-  color: black;
-}
-
-.sticky {
-  position: absolute;
-  top: 0;
+#navbar {
+  background-color: rgba(255,255,255,.9); /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -100px; /* Hide the navbar 50 px outside of the top view */
   width: 100%;
-  opacity: 0;
+  transition: top 0.5s;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28); /* Transition effect when sliding down (and up) */
+}
+
+#navbar a {
+  float: left;
+  padding:24px;
+  display: block;
+  color: #222831;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #00adb5;
 }
 
 
