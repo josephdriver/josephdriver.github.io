@@ -1,8 +1,9 @@
 .banner {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  min-height: calc(100vh - 76px);
+  min-height: 100vh;
   background-image: linear-gradient(345deg, rgba(6,18,37,0.5158438375350141) 0%, rgba(204,224,255,0) 100%), url('../../assets/banner.jpg');
   background-position: center;
   background-size: cover;
@@ -10,8 +11,38 @@
 
 .banner-text {
   text-align: end;
+  float:right;
+  max-width: 50%;
   color: white;
   align-items: center;
+}
+
+.banner-title {
+  padding:2em 0;
+  border-color: #00adb5;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.banner-title h3 {
+  margin: 0;
+}
+
+.banner-links {
+  display: flex;
+  padding:2em 0;
+  justify-content: space-between;
+}
+
+.banner-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-links a:hover {
+  color:#00adb5;
 }
 
 .banner-text h1 {

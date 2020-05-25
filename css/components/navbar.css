@@ -1,16 +1,57 @@
-nav {
+.customnav {
+  padding: 0 2em 0 2em;
+  position: fixed;
+  display:none;
+  top: -76px;
+  align-items: center;
   min-height: 76px;
-  -webkit-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
-  -moz-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
-  box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
+  min-width: 100%;
+  top: 0;
 }
 
-nav li a {
+.solidbackground {
+  background-color: rgba(255,255,255,.9);
+}
+
+.opacitybackground {
+  background-color: rgba(255,255,255,0);
+}
+
+.title {
   color: black;
+}
+
+.links {
+  padding: 0 2em 0 2em;
+  opacity: 1;
+}
+.links a {
+  color:#222831;
   text-decoration: none;
 }
 
-nav li a:hover {
+.links a:hover{
+  color: #00adb5;
+}
+
+.title a:hover {
+  color:#00adb5;
+}
+
+.title a {
+  color:#222831;
   text-decoration: none;
 }
+
+.active {
+  color: black;
+}
+
+.sticky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
 
