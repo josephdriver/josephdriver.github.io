@@ -9,17 +9,20 @@
   box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28); /* Transition effect when sliding down (and up) */
 }
 
-#navbar a {
-  float: left;
-  padding:24px;
-  display: block;
+
+.navlinks {
+  display: flex;
+  align-items: baseline;
+  padding:0.6em;
   color: #222831;
-  text-align: center;
+}
+
+.navlinks a {
+  color:#222831;
+  padding: 0 1em 0 1em;
   text-decoration: none;
 }
 
-#navbar a:hover {
+.navlinks a:hover {
   color: #00adb5;
 }
-
-

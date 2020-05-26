@@ -52,10 +52,10 @@ projectsbanner.addEventListener("click", (event) => {
   projects.scrollIntoView( {behavior: 'smooth'} );
 });
 
-// toprojects.addEventListener("click", (event) => {
-//   event.preventDefault();
-//   projects.scrollIntoView( {behavior: 'smooth'} );
-// });
+toprojects.addEventListener("click", (event) => {
+  event.preventDefault();
+  projects.scrollIntoView( {behavior: 'smooth'} );
+});
 
 //Scroll events for contact element
 contactnav.addEventListener("click", (event) => {
@@ -68,7 +68,7 @@ contactbanner.addEventListener("click", (event) => {
   contact.scrollIntoView( {behavior: 'smooth'} );
 });
 
-// tocontact.addEventListener("click", (event) => {
-//   event.preventDefault();
-//   contact.scrollIntoView( {behavior: 'smooth'} );
-// });
+tocontact.addEventListener("click", (event) => {
+  event.preventDefault();
+  contact.scrollIntoView( {behavior: 'smooth'} );
+});

@@ -4,7 +4,6 @@
   left: 47%;
 }
 
-
 .chev a {
   position: absolute;
   font-size: 2em;
@@ -16,6 +15,16 @@
   font-size: 2.05em;
 }
 
-.green {
-  color: #00adb5;
+.down-chev {
+  text-align: center
+}
+
+.down-chev a {
+  font-size: 2em;
+  color:#00adb5;
+}
+
+.down-chev a:hover {
+  color:#008a8e;
+  font-size: 2.05em;
 }

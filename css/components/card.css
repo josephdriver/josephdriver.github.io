@@ -21,3 +21,7 @@
   background-size: cover;
   background-position: center;
 }
+
+.desc-paragraph {
+  padding:2em 0 2em 0;
+}
