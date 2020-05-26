@@ -28,7 +28,7 @@ window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
   console.log(contactOffset);
   console.log(scrollpos);
-  if (scrollpos > contactOffset) {
+  if (scrollpos > contactOffset - 1) {
     console.log("My story active");
     contactnav.style.color = "#00adb5";
   } else {
