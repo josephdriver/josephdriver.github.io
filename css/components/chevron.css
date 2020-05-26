@@ -6,13 +6,13 @@
 
 .chev a {
   position: absolute;
-  font-size: 2em;
+  font-size: 3em;
   color:white;
 }
 
 .chev a:hover {
   color:#00adb5;
-  font-size: 2.05em;
+  font-size: 3.1em;
 }
 
 .down-chev {
