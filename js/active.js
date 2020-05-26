@@ -16,7 +16,7 @@ window.addEventListener('scroll', (event) => {
 
 window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
-  if (scrollpos > projectsOffset - 10 && scrollpos < contactOffset - 10) {
+  if (scrollpos > projectsOffset - 9 && scrollpos < contactOffset - 10) {
     console.log("My story active");
     projectsnav.style.color = "#00adb5";
   } else {
@@ -28,7 +28,7 @@ window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
   console.log(contactOffset);
   console.log(scrollpos);
-  if (scrollpos > contactOffset - 10) {
+  if (scrollpos > contactOffset - 9) {
     console.log("My story active");
     contactnav.style.color = "#00adb5";
   } else {
