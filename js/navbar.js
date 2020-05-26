@@ -2,8 +2,6 @@ let intViewportHeight = window.innerHeight;
 console.log(intViewportHeight);
 window.onscroll = function() {myFunction()};
 const navbar = document.querySelector("#navbar");
-const mystorylink = document.querySelector("#mystorylink");
-const mystorydiv = document.querySelector("#mystory");
 
 window.onscroll = function() {scrollFunction()};
 

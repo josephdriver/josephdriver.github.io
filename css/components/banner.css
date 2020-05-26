@@ -10,20 +10,24 @@
 }
 
 .banner-text {
+  position: relative;
+  display: flex;
   text-align: end;
   float:right;
-  max-width: 50%;
+  max-width: 50vw;
+  min-height: 80vh;
   color: white;
   align-items: center;
 }
 
-.banner-title {
+.banner-name {
   padding:2em 0;
   border-color: #00adb5;
   border-style: solid;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
+
 }
 
 .banner-title h3 {
@@ -37,6 +41,7 @@
 }
 
 .banner-links a {
+  display: flex;
   color: white;
   text-decoration: none;
 }

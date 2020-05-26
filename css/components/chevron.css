@@ -1,0 +1,17 @@
+.chev {
+  position: absolute;
+  bottom: 0px;
+  left: 47%;
+}
+
+
+.chev a {
+  position: absolute;
+  font-size: 2em;
+  color:white;
+}
+
+.chev a:hover {
+  color:#00adb5;
+  font-size: 2.05em;
+}
