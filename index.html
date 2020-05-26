@@ -47,14 +47,17 @@
     </div>
   </div>
   <div id="mystory" class="section">
+    <div class="storyback">
+    </div>
     <div class="container">
       <div class="heading">
         <h1>My Story</h1>
       </div>
-      <div class="avatar">
-      </div>
       <div class="paragraph">
-        <p>Try to scroll this section ansd;jfahdsfjklhald look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p class="justify">I am born and raised in Brisbane, Australia. I have always been a tech enthusiast. My teenage years were spent procrastinating about school work and instead investing my time other pursuits like building custom computers for anyone who would buy them or taking on programming projects that were far too ambitious or reasonable for a single teenager who did not know how to write any code.</p>
+        <p class="justify">I have spent the last decade working as an Advanced Care Paramedic for Queensland Ambulance Service, which has given me some very memorable highs and unforgettable lows. I can vividly recall delivering a baby in the front seat of a Toyota Rav4 while a 2 year old spectator was screaming from the back seat, and negotiating with an Irish midget dressed like a cowboy who was adamant he was an Australian “Jackaroo”.</p>
+        <p class="justify">During my time as a Paramedic I have remained passionate about the tech industry, I have started a small computer building and service business and I am continuously undertaking various coding courses. Recently, I attended and completed the Le Wagon Coding Bootcamp, a nine week intensive course which covered all aspects of fullstack web development. Since completing the bootcamp, I have been continuing to improve and expand my coding skills through a number of collaborative and personal projects.</p>
+        <p class="justify">I am excited to continue to expand my fullstack capabilities by seeking creative Web Development opportunities, and would love to connect with you!</p>
       </div>
     </div>
     <div class="down-chev">
@@ -62,47 +65,62 @@
     </div>
   </div>
   <div id="projects" class="section">
+    <div class="projectback">
+    </div>
     <div class="container">
       <div class="heading">
         <h1>Projects</h1>
       </div>
-      <div class="project-row">
-        <div class="project-card">
-          <a href="https://right-dose.herokuapp.com/" target="_blank">
-          <div class="project rd"></div>
-          </a>
-          <div class="description">
+      <div class="project-card">
+        <a href="https://right-dose.herokuapp.com/" target="_blank">
+        <div class="project rd"></div>
+        </a>
+        <div class="description">
             <div class="desc-heading">
               <h3>Right Dose</h3>
-            </div>
-            <div class="desc-paragraph">
-              <p>Right Dose description goes here</p>
-            </div>
+          </div>
+          <div class="icons">
+
           </div>
         </div>
-        <div class="project-card">
-          <a href="https://the-milehigh-club.herokuapp.com/" target="_blank">
-          <div class="project rd"></div>
-          </a>
-          <div class="description">
-            <div class="desc-heading">
-              <h3>Right Dose</h3>
-            </div>
-            <div class="desc-paragraph">
-              <p>Right Dose description goes here</p>
-            </div>
+      </div>
+      <div class="desc-paragraph">
+        <p class="justify">Right dose is a web application designed to help prevent drug administration errors in the prehospital setting. The application has two components, the organisational dashboard and the paramedic interface.</p>
+        <p class="justify">The organisational dashboard allows an administrator to update, add or remove drug protocols, organisation specific attributes as well as users, and can push the information to frontline employees in realtime. The paramedic interface provides the frontline worker with a drug calculator specific to their skill level <strong><em>and</em></strong> organisation, while also providing administration tracking and advice regarding next appropraite dose.</p>
+      </div>
+      <div class="project-card">
+        <a href="https://the-milehigh-club.herokuapp.com/" target="_blank">
+        <div class="project mh"></div>
+        </a>
+        <div class="description">
+          <div class="desc-heading">
+            <h3>The Mile High Club</h3>
           </div>
         </div>
-        <div class="project-card">
-          <div class="project mc"></div>
-          <div class="description">
-            <div class="desc-heading">
-              <h3>Right Dose</h3>
-            </div>
-            <div class="desc-paragraph">
-              <p>Right Dose descrisalkdfn skl;dfa sdfkmsad'f ;ams'fdklam s'dlkfmasdl;kfma;sdlfkm a;sldkfm ;aslkdfm ;alskdfm;alskdmf;aslkdmf;aslkdmf;aslkdmfa;slkdfma;slkdmf;aslkdmf;alskdmf;alskma;slkdf a;slkdfm a;skldfm ;aslkdfm ;aption goes here</p>
-            </div>
+      </div>
+      <div class="desc-paragraph">
+        <p class="justify">The Mile High Club was my first big milestone project, essentially a clone of AirBnb, however adapted for aircraft rental. This project introduced the concepts and challenges of versioning within a team throught the use of git as well as exploring the world of ruby gems and javascript modules.</p>
+      </div>
+      <div class="project-card">
+        <div class="project mc"></div>
+        <div class="description">
+          <div class="desc-heading">
+            <h3>Mister Cocktail</h3>
           </div>
+        </div>
+        <div class="desc-paragraph">
+          <p class="justify">A simple rails application for storing and viewing cocktial reciepes. The aim of this project was an exercise in schema design and rails web development. The project also incorporates image hosting on cloudinary image service.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project shifty"></div>
+        <div class="description">
+          <div class="desc-heading">
+            <h3>Shifty.</h3>
+          </div>
+        </div>
+        <div class="desc-paragraph">
+          <p class="justify">The lastest project is Shifty, an application for shift workers. The goal of this app is to provide a platform where a shift worker can organise and arrange upcoming shifts as well as facilitate shifts swapping between employees within the same organisation.</p>
         </div>
       </div>
     </div>
@@ -111,9 +129,29 @@
     </div>
   </div>
   <div id="contact" class="section">
+    <div class="projectback">
+    </div>
     <div class="container">
       <div class="heading">
         <h1>Contact</h1>
+      </div>
+      <div>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
       <div class="paragraph">
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>

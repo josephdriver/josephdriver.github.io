@@ -1,7 +1,12 @@
+.project-card {
+  padding:2em 0 0;
+}
+
 .project {
-  height:360px;
-  width:660px;
+  height:50vh;
+  max-width:80%;
   border-radius: 1em;
+  margin: 3em auto;
 }
 
 .rd {
@@ -17,11 +22,33 @@
 }
 
 .mc {
-  background-image: url("../../assets/rightdose.jpg");
+  background-image: url("../../assets/mistercocktail.jpg");
   background-size: cover;
   background-position: center;
 }
 
+.shifty {
+  background-image: url("../../assets/shifty1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.desc-heading {
+  width:30%;
+  text-align: center;
+  padding:2em 0;
+  border-color: #00adb5;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
 .desc-paragraph {
   padding:2em 0 2em 0;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
 }
