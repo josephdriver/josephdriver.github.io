@@ -6,7 +6,7 @@ let scrollpos = 0;
 
 window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
-  if (scrollpos > myStoryOffset - 10 && scrollpos < projectsOffset) {
+  if (scrollpos > myStoryOffset - 10 && scrollpos < projectsOffset - 10) {
     console.log("My story active");
     mystorynav.style.color = "#00adb5";
   } else {
@@ -16,7 +16,7 @@ window.addEventListener('scroll', (event) => {
 
 window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
-  if (scrollpos > projectsOffset - 10 && scrollpos < contactOffset) {
+  if (scrollpos > projectsOffset - 10 && scrollpos < contactOffset - 10) {
     console.log("My story active");
     projectsnav.style.color = "#00adb5";
   } else {
@@ -28,7 +28,7 @@ window.addEventListener('scroll', (event) => {
   scrollpos = window.scrollY;
   console.log(contactOffset);
   console.log(scrollpos);
-  if (scrollpos > contactOffset - 1) {
+  if (scrollpos > contactOffset - 10) {
     console.log("My story active");
     contactnav.style.color = "#00adb5";
   } else {
