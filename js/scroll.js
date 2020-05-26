@@ -1,7 +1,12 @@
 const home = document.querySelector("#home");
 const mystory = document.querySelector("#mystory");
 const projects = document.querySelector("#projects");
+const rightdose = document.querySelector("#rightdose");
+const milehigh = document.querySelector("#milehigh");
+const cocktail = document.querySelector("#cocktail");
+const shifty = document.querySelector("#shifty");
 const contact = document.querySelector("#contact");
+
 
 const homenav = document.querySelector("#homenav");
 
@@ -55,6 +60,27 @@ projectsbanner.addEventListener("click", (event) => {
 toprojects.addEventListener("click", (event) => {
   event.preventDefault();
   projects.scrollIntoView( {behavior: 'smooth'} );
+});
+
+//Scroll events for subprojects elements
+rightdosenav.addEventListener("click", (event) => {
+  event.preventDefault();
+  rightdose.scrollIntoView( {behavior: 'smooth'} );
+});
+
+milehighnav.addEventListener("click", (event) => {
+  event.preventDefault();
+  milehigh.scrollIntoView( {behavior: 'smooth'} );
+});
+
+cocktailnav.addEventListener("click", (event) => {
+  event.preventDefault();
+  cocktail.scrollIntoView( {behavior: 'smooth'} );
+});
+
+shiftynav.addEventListener("click", (event) => {
+  event.preventDefault();
+  shifty.scrollIntoView( {behavior: 'smooth'} );
 });
 
 //Scroll events for contact element

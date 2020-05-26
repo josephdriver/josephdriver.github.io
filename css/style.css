@@ -6,12 +6,15 @@
 @import url("components/card.css");
 @import url("components/chevron.css");
 @import url("components/utility.css");
+@import url("components/icons.css");
 
 
 h1 h2 h3 h4 h5 h6 {
   font-family: 'Montserrat', sans-serif;
+  color: #222831;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
+  color: #222831;
 }

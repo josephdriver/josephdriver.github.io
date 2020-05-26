@@ -13,24 +13,56 @@
   background-image: url("../../assets/rightdose.jpg");
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+}
+
+.rd:hover {
+  opacity: 0.8;
+  transition:0.2s;
 }
 
 .mh {
   background-image: url("../../assets/milehigh.jpg");
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+}
+
+.mh:hover {
+  opacity: 0.8;
+  transition:0.2s;
 }
 
 .mc {
   background-image: url("../../assets/mistercocktail.jpg");
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+}
+
+.mc:hover {
+  opacity: 0.8;
+  transition:0.2s;
 }
 
 .shifty {
   background-image: url("../../assets/shifty1.jpg");
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+}
+
+.shifty:hover {
+  opacity: 0.8;
+  transition:0.2s;
 }
 
 .desc-heading {
