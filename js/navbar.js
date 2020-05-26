@@ -1,7 +1,8 @@
 let intViewportHeight = window.innerHeight;
 console.log(intViewportHeight);
-window.onscroll = function() {myFunction()};
 const navbar = document.querySelector("#navbar");
+
+window.onscroll = function() {myFunction()};
 
 window.onscroll = function() {scrollFunction()};
 

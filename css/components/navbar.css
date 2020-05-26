@@ -26,3 +26,7 @@
 .navlinks a:hover {
   color: #00adb5;
 }
+
+.active {
+  color:#00adb5;
+}
