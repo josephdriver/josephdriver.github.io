@@ -1,19 +1,8 @@
-const myStoryOffset = mystory.offsetTop;
-const projectsOffset = projects.offsetTop;
-const rightdoseOffset = rightdose.offsetTop;
-const milehighOffset = milehigh.offsetTop;
-const cocktailOffset = cocktail.offsetTop;
-const shiftyOffset = shifty.offsetTop;
-const contactOffset = contact.offsetTop;
-
 const hidden = document.querySelector("#hidden");
-
-let scrollpos = 0;
 
 //My Story Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > myStoryOffset - 1 && scrollpos < projectsOffset - 2) {
+  if (window.scrollY > mystory.offsetTop - 1 && window.scrollY < projects.offsetTop - 2) {
     mystorynav.style.color = "#00adb5";
   } else {
     mystorynav.style.color = "#222831";
@@ -22,8 +11,7 @@ window.addEventListener('scroll', (event) => {
 
 //My Project Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > projectsOffset - 1 && scrollpos < contactOffset - 20) {
+  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < contact.offsetTop - 20) {
     projectsnav.style.color = "#00adb5";
     hidden.style.display = "flex";
   } else {
@@ -34,9 +22,7 @@ window.addEventListener('scroll', (event) => {
 
 //Right Dose Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > projectsOffset - 1 && scrollpos < milehighOffset - 1) {
-    console.log("My story active");
+  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < milehigh.offsetTop - 1) {
     rightdosenav.style.color = "#00adb5";
   } else {
     rightdosenav.style.color = "#222831";
@@ -45,8 +31,7 @@ window.addEventListener('scroll', (event) => {
 
 //Mile High Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > milehighOffset - 1 && scrollpos < cocktailOffset - 1) {
+  if (window.scrollY > milehigh.offsetTop - 1 && window.scrollY < cocktail.offsetTop - 1) {
     milehighnav.style.color = "#00adb5";
   } else {
     milehighnav.style.color = "#222831";
@@ -55,8 +40,7 @@ window.addEventListener('scroll', (event) => {
 
 //Cocktail Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > cocktailOffset - 1 && scrollpos < shiftyOffset - 1) {
+  if (window.scrollY > cocktail.offsetTop - 1 && window.scrollY < shifty.offsetTop - 1) {
     cocktailnav.style.color = "#00adb5";
   } else {
     cocktailnav.style.color = "#222831";
@@ -65,9 +49,7 @@ window.addEventListener('scroll', (event) => {
 
 //Shifty Active
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > shiftyOffset - 1 && scrollpos < contactOffset - 30) {
-    console.log("My story active");
+  if (window.scrollY > shifty.offsetTop - 1 && window.scrollY < contact.offsetTop - 30) {
     shiftynav.style.color = "#00adb5";
   } else {
     shiftynav.style.color = "#222831";
@@ -75,9 +57,7 @@ window.addEventListener('scroll', (event) => {
 });
 
 window.addEventListener('scroll', (event) => {
-  scrollpos = window.scrollY;
-  if (scrollpos > contactOffset - 50) {
-    console.log("My story active");
+  if (window.scrollY > contact.offsetTop - 50) {
     contactnav.style.color = "#00adb5";
   } else {
     contactnav.style.color = "#222831";
