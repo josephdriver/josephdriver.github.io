@@ -23,3 +23,8 @@
   color:#00adb5;
   text-decoration:none;
 }
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
