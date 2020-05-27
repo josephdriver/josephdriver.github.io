@@ -11,9 +11,11 @@ window.addEventListener('scroll', (event) => {
 
 //My Project Active
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < contact.offsetTop - 20) {
+  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < contact.offsetTop - 20 && window.innerWidth > 740) {
     projectsnav.style.color = "#00adb5";
     hidden.style.display = "flex";
+  } else if (window.scrollY > projects.offsetTop - 1 && window.scrollY < contact.offsetTop - 20 && window.innerWidth < 740) {
+      projectsnav.style.color = "#00adb5";
   } else {
     projectsnav.style.color = "#222831";
     hidden.style.display = "none";
