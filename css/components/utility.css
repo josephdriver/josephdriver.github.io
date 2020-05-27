@@ -9,3 +9,17 @@
 .width {
   width:60vh;
 }
+
+.no-deco {
+  text-decoration:none;
+}
+
+.no-deco:hover {
+  color:#00adb5;
+  text-decoration:none;
+}
+
+.no-deco p:hover {
+  color:#00adb5;
+  text-decoration:none;
+}
