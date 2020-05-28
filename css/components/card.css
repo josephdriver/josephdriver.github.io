@@ -3,7 +3,7 @@
 }
 
 .project {
-  height:50vh;
+  height:30vh;
   max-width:80%;
   border-radius: 1em;
   margin: 3em auto;
@@ -40,7 +40,7 @@
 .mc {
   background-image: url("../../assets/mistercocktail.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
   -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
   box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
@@ -61,6 +61,20 @@
 }
 
 .shifty:hover {
+  opacity: 0.8;
+  transition:0.2s;
+}
+
+.io {
+  background-image: url("../../assets/io.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  -moz-box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+  box-shadow: 5px 5px 13px -4px rgba(0,0,0,0.28);
+}
+
+.io:hover {
   opacity: 0.8;
   transition:0.2s;
 }

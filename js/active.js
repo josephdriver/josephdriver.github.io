@@ -24,7 +24,7 @@ window.addEventListener('scroll', (event) => {
 
 //Right Dose Active
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < milehigh.offsetTop - 1) {
+  if (window.scrollY > projects.offsetTop - 1 && window.scrollY < milehigh.offsetTop - 10) {
     rightdosenav.style.color = "#00adb5";
   } else {
     rightdosenav.style.color = "#222831";
@@ -33,7 +33,7 @@ window.addEventListener('scroll', (event) => {
 
 //Mile High Active
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > milehigh.offsetTop - 1 && window.scrollY < cocktail.offsetTop - 1) {
+  if (window.scrollY > milehigh.offsetTop - 9 && window.scrollY < cocktail.offsetTop - 10) {
     milehighnav.style.color = "#00adb5";
   } else {
     milehighnav.style.color = "#222831";
@@ -42,7 +42,7 @@ window.addEventListener('scroll', (event) => {
 
 //Cocktail Active
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > cocktail.offsetTop - 1 && window.scrollY < shifty.offsetTop - 1) {
+  if (window.scrollY > cocktail.offsetTop - 9 && window.scrollY < shifty.offsetTop - 10) {
     cocktailnav.style.color = "#00adb5";
   } else {
     cocktailnav.style.color = "#222831";
@@ -51,7 +51,7 @@ window.addEventListener('scroll', (event) => {
 
 //Shifty Active
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > shifty.offsetTop - 1 && window.scrollY < contact.offsetTop - 30) {
+  if (window.scrollY > shifty.offsetTop - 9 && window.scrollY < io.offsetTop - 10) {
     shiftynav.style.color = "#00adb5";
   } else {
     shiftynav.style.color = "#222831";
@@ -59,7 +59,15 @@ window.addEventListener('scroll', (event) => {
 });
 
 window.addEventListener('scroll', (event) => {
-  if (window.scrollY > contact.offsetTop - 50) {
+  if (window.scrollY > io.offsetTop - 9 && window.scrollY < contact.offsetTop - 30) {
+    ionav.style.color = "#00adb5";
+  } else {
+    ionav.style.color = "#222831";
+  }
+});
+
+window.addEventListener('scroll', (event) => {
+  if (window.scrollY > contact.offsetTop - 29) {
     contactnav.style.color = "#00adb5";
   } else {
     contactnav.style.color = "#222831";

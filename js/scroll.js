@@ -5,6 +5,7 @@ const rightdose = document.querySelector("#rightdose");
 const milehigh = document.querySelector("#milehigh");
 const cocktail = document.querySelector("#cocktail");
 const shifty = document.querySelector("#shifty");
+const io = document.querySelector("#io");
 const contact = document.querySelector("#contact");
 
 
@@ -81,6 +82,11 @@ cocktailnav.addEventListener("click", (event) => {
 shiftynav.addEventListener("click", (event) => {
   event.preventDefault();
   shifty.scrollIntoView( {behavior: 'smooth'} );
+});
+
+ionav.addEventListener("click", (event) => {
+  event.preventDefault();
+  io.scrollIntoView( {behavior: 'smooth'} );
 });
 
 //Scroll events for contact element

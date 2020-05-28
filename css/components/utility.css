@@ -28,3 +28,8 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+.white {
+  color:white;
+}
