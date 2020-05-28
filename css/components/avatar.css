@@ -20,7 +20,7 @@
   box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.8);
   background-image: url("../../assets/running.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   border-radius:1em;
   margin:1em 0 2em 0;
 }
